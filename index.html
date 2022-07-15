@@ -15,7 +15,7 @@ p {
  Nanti buka pas hitungan mundurnya habis yah :)
 </h1>
 
-<p id="demo"><a href="">Klik Yah, Semoga Suka </a> </p>
+<p id="demo"> </p>
 
 
 <script>
@@ -44,7 +44,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo");
+        document.getElementById("demo").innerHTML = "<a href='http://suckittrees.com'>Download</a>";
     }
 }, 1000);
 </script>
